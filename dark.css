@@ -5,9 +5,9 @@ body.dark .card{background-color:#303030;}
 body.dark .modal-content{background-color:#303030;border-color:#444;}
 body.dark .modal-header{border-bottom-color:#444;}
 body.dark .close{color:#fff;text-shadow:none;}
-body.dark .bg-primary{background-color:#375a7f !important;}
-body.dark .btn-primary{background-color:#375a7f;border-color:#375a7f;}
-body.dark .btn-primary:hover{background-color:#2b4764;border-color:#28415b;}
+body.dark .bg-primary{background-color:#ffcc00 !important;}
+body.dark .btn-primary{background-color:#ffcc00;border-color:transparent;}
+body.dark .btn-primary:hover{background-color:#ff7e1f;border-color:transparent;}
 body.dark .btn-primary:not(:disabled):not(.disabled):active{background-color:#28415b;border-color:#243a53;}
 body.dark .btn-primary:focus,body.dark .btn-primary:not(:disabled):not(.disabled):active:focus{box-shadow:0 0 0 0.2rem rgba(85,115,146,0.5);}
 body.dark .alert-primary{background-color:#375a7f;border-color:#23384f}

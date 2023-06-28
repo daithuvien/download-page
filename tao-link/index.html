@@ -7,7 +7,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>Google Drive - DTV</title>
+  <title>DTV - encrypted folder copy</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
           </div>
           <div class="card-body">
             <h3>Decryption servers</h3>
-            <pre>https://download.daithuvien.com</pre>
+            <pre>https://white-fire-300c.leminhy89.workers.dev</pre>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@
     }
 
     async function encryptId(folderId) {
-      return encrypt(folderId, "ltlJjN2Sttjpb2QvFba+VapoNAgATcpSJXcxScb5M6o=");
+      return encrypt(folderId, "9rCCsBPFozC63BUAPLFHLjydlK/lwzCTjNK462zSsSw=");
     }
 
     async function encryptFolder() {
@@ -138,7 +138,7 @@
       document.querySelector("#folder_link").setAttribute("disabled", "");
       document.querySelector("#encrypt").setAttribute("disabled", "");
       try {
-        document.querySelector("#encrypted_link").value = "ZG93bmxvYWQuZGFpdGh1dmllbi5jb20=." + (await encryptFolder());
+        document.querySelector("#encrypted_link").value = "d2hpdGUtZmlyZS0zMDBjLmxlbWluaHk4OS53b3JrZXJzLmRldg==." + (await encryptFolder());
       }
       catch (e) {
         alert(e.message);

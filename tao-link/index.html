@@ -29,6 +29,10 @@
             <p class="mt-3">You can share the decryption website and encrypted ID separately or combine them together
               with <code>#</code> like this: <code>https://example.com/#ABCD.1234</code></p>
           </div>
+          <div class="card-body">
+            <h3>Decryption servers</h3>
+            <pre>https://download.daithuvien.com</pre>
+          </div>
         </div>
       </div>
     </div>
@@ -115,7 +119,7 @@
     }
 
     async function encryptId(folderId) {
-      return encrypt(folderId, "4+BeBP6FDphsnruFP24WPor4oCWIgn1DwMrkPZ2ZGp4=");
+      return encrypt(folderId, "gErK/azZ+dkGDsQdmMPoyKNBVoKEVctszQh4gRi2H/Q=");
     }
 
     async function encryptFolder() {
@@ -134,7 +138,7 @@
       document.querySelector("#folder_link").setAttribute("disabled", "");
       document.querySelector("#encrypt").setAttribute("disabled", "");
       try {
-        document.querySelector("#encrypted_link").value = "https://download.daithuvien.com/#" + (await encryptFolder());
+        document.querySelector("#encrypted_link").value = "ZG93bmxvYWQuZGFpdGh1dmllbi5jb20=." + (await encryptFolder());
       }
       catch (e) {
         alert(e.message);
